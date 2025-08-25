@@ -1,7 +1,12 @@
 [project]
 name = "burrito-arbitrage"
 version = "0.1.0"
-description = "Add your description here"
+description = "An analysis of returns from BNPL arbitrage."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "pandas>=2.3.2",
+    "yfinance>=0.2.65",
+]
